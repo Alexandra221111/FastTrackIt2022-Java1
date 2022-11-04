@@ -2,12 +2,33 @@ package AnimalRescue;
 
 public class Dog {
 
-    String name = "Rudolph";
-    int age = 2;
-    String breed = "Husky";
+    private String name;
+    private int age;
+    private String Breed;
+
     String color = "Blue";
     double weight = 30.5;
     String gender = "Male";
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
+
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+
+
+
+
 
     public void eat(){
         System.out.println("Eating yum yum..");

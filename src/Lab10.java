@@ -69,7 +69,7 @@ Apoi apelati metoda in main cu valorile cu care doriti sa executati operatia.
     /*4.Scrieti o metoda java, care sa primeasca 3 parametrii de tip numar, si sa returneze media numerelor*/
 
 
-    public static void calcul() {
+   public static void calcul() {
         int op8 = 3;
         int op9 = 9;
         int op10 = 8;
@@ -104,7 +104,7 @@ Apoi apelati metoda in main cu valorile cu care doriti sa executati operatia.
      /*7.Scrieti o metoda java, care sa primeasca ca si parametru un numar, care sa reprezinte
       temperatura in Fahrenheit, si sa returneze temperatura in Celsius. Formula de calcul este: C = 5/9 * (F -32)*/
 
-    public static int fahrenheit() {
+   public static void fahrenheit() {
         int F = 89;
         int grade = 5;
         int grade1 = 9;
@@ -113,16 +113,18 @@ Apoi apelati metoda in main cu valorile cu care doriti sa executati operatia.
 
         System.out.println(celsius);
 
+     }
+
+        public static int celsius ( int F, int grade, int grade1, int grade2){
+            int celsius = grade / grade1 * (F - grade2);
+            return celsius;
+
+        }
     }
-    public static int celsius( int F, int grade,int grade1, int grade2){
-        int celsius = grade /grade1 * (F - grade2);
-        return celsius;
-
-    }
 
 
 
-    }
+
 
 
 

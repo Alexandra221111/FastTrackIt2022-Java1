@@ -3,7 +3,7 @@ public class Main2 {
 
     public static void main(String[] args) {
         LogicalOperation maria = new LogicalOperation();
-        String text = "ihjghj";
+        String text = "alabama";
         System.out.println(maria.exercise1(text));
     }
 }

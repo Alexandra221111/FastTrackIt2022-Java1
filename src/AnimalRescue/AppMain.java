@@ -6,12 +6,19 @@ public class AppMain {
 
         Dog rudolph = new Dog();
 
-        System.out.println("The dog's name is:" + rudolph.name);
+        rudolph.setName("Rudolph");
 
-        System.out.println("The dog's age is:"+ rudolph.age);
+        rudolph.setAge(6);
 
-        rudolph.age= 6;
-        System.out.println("The dog's age is:" + rudolph.age + "years");
+
+
+        System.out.println("The dog's name is:" + rudolph.getName());
+
+
+        System.out.println("The dog's age is:"+ rudolph.getAge());
+
+
+
 
         System.out.println("The dog's weight is:" + rudolph.weight + "Kg");
 
