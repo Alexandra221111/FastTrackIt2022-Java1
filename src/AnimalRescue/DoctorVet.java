@@ -2,11 +2,56 @@ package AnimalRescue;
 
 public class DoctorVet {
 
-    String name = "Andrew";
-    String work = "Vet Doctor";
-    int age = 43;
-    int weight = 78;
-    String gender = "Male";
+
+    private String name;
+    private String work ;
+    private int age ;
+    private int weight ;
+    private String gender ;
+
+
+    public void setName(String name){
+        this.name = name;
+
+    }
+    public String getName(){
+        return name;
+    }
+    public void setWork(String work) {
+        this.work = work;
+    }
+    public String getWork() {
+        return work;
+    }
+
+    public void setAge (int age){
+        this.age = age;
+    }
+    public int getAge() {
+        return age;
+    }
+
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setGender(String gender){
+        this.gender = gender;
+
+    }
+    public String getGender() {
+        return gender;
+    }
+
+
+
+
+
+
 
     public void heal(){
         System.out.println("Healing the pet");

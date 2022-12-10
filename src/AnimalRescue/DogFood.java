@@ -2,10 +2,49 @@ package AnimalRescue;
 
 public class DogFood {
 
-    String name = "Pedigree";
-    int price = 126;
-    String quality = "High";
-    String availability = "in stock";
+    private String name;
+    private int price ;
+    private String quality;
+    private String availability ;
+
+
+
+
+
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
+    public void setPrice(int price){
+        this.price = price;
+    }
+    public int getPrice(){
+        return price;
+    }
+
+    public void setQuality(String quality){
+        this.quality = quality;
+
+    }
+    public String getQuality(){
+        return quality;
+    }
+
+    public void setAvailability(String availability){
+        this.availability =availability;
+
+    }
+    public String getAvailability(){
+        return availability;
+    }
+
+
+
+
 
     public void calcium (){
         System.out.println("Calcium for strong teeth and bones ");

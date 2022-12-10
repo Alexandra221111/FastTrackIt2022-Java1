@@ -2,12 +2,64 @@ package AnimalRescue;
 
 public class Girl {
 
-    String name = "Rania";
-    String work = "Cheesecake Factory";
-    int age = 18;
-    int weight = 65;
-    double moneyInThePurse = 500;
-    String gender = "Female";
+    private String name;
+    private String work ;
+    private int age ;
+    private int weight ;
+    private double moneyInThePurse ;
+    private String gender ;
+
+
+
+
+
+
+    public void setName(String name){
+        this.name = name;
+
+    }
+    public String getName(){
+        return name;
+    }
+    public void setWork(String work) {
+        this.work = work;
+    }
+    public String getWork() {
+        return work;
+    }
+
+    public void setAge (int age){
+        this.age = age;
+    }
+    public int getAge() {
+        return age;
+    }
+
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setMoneyInThePurse(double moneyInThePurse) {
+        this.moneyInThePurse = moneyInThePurse;
+    }
+    public double getMoneyInThePurse(){
+        return moneyInThePurse;
+
+}
+    public void setGender(String gender){
+        this.gender = gender;
+
+    }
+    public String getGender() {
+        return gender;
+    }
+
+
+
 
     public void eat(){
         System.out.println("Eating food");
