@@ -26,6 +26,10 @@ public class Main5 {
             System.out.println(i);
         }
     }
+    LogicalOperations1 logicalOp2 = new LogicalOperations1();
+
+
+
 
 
 }

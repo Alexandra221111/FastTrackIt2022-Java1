@@ -1,6 +1,5 @@
 package AnimalRescue;
 
-import jdk.swing.interop.SwingInterOpUtils;
 
 public class AppMain {
 
