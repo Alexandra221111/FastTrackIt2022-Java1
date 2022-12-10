@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef9ee4d9-d191-482e-b893-e53eade89fb4" name="Changes" comment="Lab 12 - Tema - for loops">
+    <list default="true" id="ef9ee4d9-d191-482e-b893-e53eade89fb4" name="Changes" comment="Lab 12 - Tema - while loops">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperations1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/DoctorVet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/DoctorVet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Girl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670693338072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab 12 - Tema - while loops">
+      <created>1670701604304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670701604304</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +238,7 @@
     <MESSAGE value="Lab 11 - Animal Rescue" />
     <MESSAGE value="Lab 12 - Tema - Encapsulare" />
     <MESSAGE value="Lab 12 - Tema - for loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 12 - Tema - for loops" />
+    <MESSAGE value="Lab 12 - Tema - while loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 12 - Tema - while loops" />
   </component>
 </project>

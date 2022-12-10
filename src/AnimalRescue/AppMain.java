@@ -89,7 +89,6 @@ public class AppMain {
 
         olive.play();
 
-        olive.run();
 
         olive.sleep();
 
