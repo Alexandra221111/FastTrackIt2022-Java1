@@ -1,61 +1,24 @@
 package AnimalRescue;
 
-public class CatFood {
+public abstract class CatFood extends PetFood{
 
-    private String name;
-    private int price ;
-    private String quality;
-    private String availability ;
-
-
-
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return name;
+    @Override
+    public void acid() {
+        super.acid();
     }
 
-    public void setPrice(int price){
-        this.price = price;
-    }
-    public int getPrice(){
-        return price;
+    @Override
+    public void calcium() {
+        super.calcium();
     }
 
-    public void setQuality(String quality){
-        this.quality = quality;
-
-    }
-    public String getQuality(){
-        return quality;
+    @Override
+    public void protein() {
+        super.protein();
     }
 
-    public void setAvailability(String availability){
-        this.availability =availability;
-
-    }
-    public String getAvailability(){
-        return availability;
-    }
-
-
-
-
-
-
-    public void calcium (){
-        System.out.println("Calcium for strong teeth and bones ");
-    }
-    public void vitamin(){
-        System.out.println("Vitamin E for a better and natural immune system");
-    }
-    public void protein (){
-        System.out.println("High protein for a better and strong muscles");
-    }
-    public void acid (){
-        System.out.println("Fat acids for sparkling and soft fur ");
-
+    @Override
+    public void vitamin() {
+        super.vitamin();
     }
 }

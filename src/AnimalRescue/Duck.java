@@ -1,5 +1,5 @@
 package AnimalRescue;
 
-public class Duck extends Animal{
+public abstract class Duck extends Animal{
 
 }

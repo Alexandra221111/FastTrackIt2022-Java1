@@ -1,64 +1,25 @@
 package AnimalRescue;
 
-public class DogFood {
+public abstract class DogFood extends PetFood{
 
-    private String name;
-    private int price ;
-    private String quality;
-    private String availability ;
-
-
-
-
-
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return name;
+    @Override
+    public void protein() {
+        super.protein();
     }
 
-    public void setPrice(int price){
-        this.price = price;
-    }
-    public int getPrice(){
-        return price;
+    @Override
+    public void vitamin() {
+        super.vitamin();
     }
 
-    public void setQuality(String quality){
-        this.quality = quality;
-
-    }
-    public String getQuality(){
-        return quality;
+    @Override
+    public void calcium() {
+        super.calcium();
     }
 
-    public void setAvailability(String availability){
-        this.availability =availability;
-
-    }
-    public String getAvailability(){
-        return availability;
-    }
-
-
-
-
-
-    public void calcium (){
-        System.out.println("Calcium for strong teeth and bones ");
-    }
-    public void vitamin(){
-        System.out.println("Vitamin E for a better and natural immune system");
-    }
-    public void protein (){
-        System.out.println("High protein for a better and strong muscles");
-    }
-    public void acid (){
-        System.out.println("Fat acids Omega-3 and Omega-6 for sparkling and soft fur ");
-    }
-    public void oil(){
-        System.out.println("Fish oil for the development of the brain and the vision");
+    @Override
+    public void acid() {
+        super.acid();
     }
 }
+

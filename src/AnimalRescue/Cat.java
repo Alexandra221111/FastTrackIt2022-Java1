@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Cat extends Animal {
+public abstract class Cat extends Animal {
 
 
 
@@ -31,5 +31,16 @@ public class Cat extends Animal {
       public void tailWiggling() {
       System.out.println("Soft left right!");;
       }
+
+      @Override
+      public void eat() {
+            super.eat();
+      }
+
+      @Override
+      public void sleep() {
+            super.sleep();
+      }
 }
+
 

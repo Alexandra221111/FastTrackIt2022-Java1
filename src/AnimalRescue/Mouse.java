@@ -1,4 +1,4 @@
 package AnimalRescue;
 
-public class Mouse extends Animal{
+public abstract class Mouse extends Animal{
 }

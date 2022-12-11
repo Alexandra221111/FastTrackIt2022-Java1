@@ -5,7 +5,13 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-        Dog rudolph = new Dog();
+        Dog rudolph = new Dog() {
+            @Override
+
+            public void tailWiggling() {
+                super.tailWiggling();
+            }
+        }
 
 
         rudolph.setName("Rudolph");
@@ -13,17 +19,14 @@ public class AppMain {
         System.out.println("The dog's name is" + rudolph.getName());
 
 
-
-         rudolph.setAge(2);
+        rudolph.setAge(2);
 
         System.out.println("The dog's age is " + rudolph.getAge() + "years");
 
 
-
         rudolph.setBreed("Husky");
 
-        System.out.println("The dog's breed is " + rudolph.getBreed() );
-
+        System.out.println("The dog's breed is " + rudolph.getBreed());
 
 
         rudolph.setColour("Blue");
@@ -50,37 +53,35 @@ public class AppMain {
         rudolph.sleep();
 
 
-
-
-        Cat olive = new Cat();
+        Cat olive = new Cat() {
+            @Override
+            public void play() {
+                super.play();
+            }
+        }
 
         olive.setName("olive");
-        System.out.println("The cat's name is "+ olive.getName());
-
+        System.out.println("The cat's name is " + olive.getName());
 
 
         olive.setAge(4);
-        System.out.println("The cat's age is " + olive.getAge()+ "years" );
-
+        System.out.println("The cat's age is " + olive.getAge() + "years");
 
 
         olive.setBreed("British short hair");
-        System.out.println("The cat's breed is "+ olive.getBreed());
-
-
+        System.out.println("The cat's breed is " + olive.getBreed());
 
 
         olive.setColour("Brown");
         System.out.println(" The cat's colour is " + olive.getColour());
 
 
-
         olive.setWeight(5);
-        System.out.println("The cat's weight is "+ olive.getWeight() + "kgs");
+        System.out.println("The cat's weight is " + olive.getWeight() + "kgs");
 
 
         olive.setGender("female");
-        System.out.println("The cat's gender is "+ olive.getGender());
+        System.out.println("The cat's gender is " + olive.getGender());
 
 
         olive.eat();
@@ -97,8 +98,6 @@ public class AppMain {
         olive.vibrate();
 
 
-
-
         Girl Rania = new Girl();
 
 
@@ -110,16 +109,14 @@ public class AppMain {
         Rania.setAge(18);
 
 
-
         Rania.setWeight(65);
 
         Rania.setGender("Female");
 
 
+        System.out.println("The girl's name is " + Rania.getName());
 
-        System.out.println("The girl's name is "+ Rania.getName());
-
-        System.out.println(" The girl's age is "+ Rania.getAge()+ "years old ");
+        System.out.println(" The girl's age is " + Rania.getAge() + "years old ");
 
         System.out.println("The girl works at the " + Rania.getWork());
 
@@ -140,8 +137,14 @@ public class AppMain {
         Rania.sleep();
 
 
+        DogFood Pedigree = new DogFood() {
+            @Override
+            public void acid() {
+                super.acid();
+            }
 
-        DogFood Pedigree = new DogFood();
+            }
+
 
 
 
@@ -157,28 +160,27 @@ public class AppMain {
 
         System.out.println("The price of the bag is" + Pedigree.getPrice() + "lei");
 
-        System.out.println("The quality of the food is"+ Pedigree.getQuality()+ "level");
+        System.out.println("The quality of the food is" + Pedigree.getQuality() + "level");
 
-        System.out.println("The availability of the product is "+ Pedigree.getAvailability());
+        System.out.println("The availability of the product is " + Pedigree.getAvailability());
 
         Pedigree.acid();
 
         Pedigree.calcium();
 
-        Pedigree.oil();
+
 
         Pedigree.protein();
 
         Pedigree.vitamin();
 
 
-
-
-        CatFood Purina = new CatFood();
-
-
-
-
+        CatFood Purina = new CatFood() {
+            @Override
+            public void acid() {
+                super.acid();
+            }
+        };
 
 
         Purina.setName("Purina");
@@ -194,9 +196,9 @@ public class AppMain {
 
         System.out.println("The price of the bag is" + Purina.getPrice() + "lei");
 
-        System.out.println("The quality of the food is"+ Purina.getQuality()+ "level");
+        System.out.println("The quality of the food is" + Purina.getQuality() + "level");
 
-        System.out.println("The availability of the product is "+ Purina.getAvailability());
+        System.out.println("The availability of the product is " + Purina.getAvailability());
 
         Purina.acid();
 
@@ -207,11 +209,7 @@ public class AppMain {
         Purina.vitamin();
 
 
-
-
         DoctorVet Andrew = new DoctorVet();
-
-
 
 
         Andrew.setName("Andrew");
@@ -224,9 +222,9 @@ public class AppMain {
 
         Andrew.setGender("Male");
 
-        System.out.println("The doctor's name is "+ Andrew.getName());
+        System.out.println("The doctor's name is " + Andrew.getName());
 
-        System.out.println(" The doctor's age is "+ Andrew.getAge() + "years old ");
+        System.out.println(" The doctor's age is " + Andrew.getAge() + "years old ");
 
         System.out.println("The doctor's occupation is" + Andrew.getWork());
 
@@ -245,18 +243,11 @@ public class AppMain {
 
         Andrew.work();
 
-        Dog dog = new Dog();
-        dog.speak();
 
-        Cat cat = new Cat();
-        cat.speak();
-        cat.tailWiggling();
-        cat.sleep();
-        cat.tailWiggling();
 
     }
 
-
-
-
 }
+
+
+
