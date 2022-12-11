@@ -109,7 +109,7 @@ public class AppMain {
 
         Rania.setAge(18);
 
-        Rania.setMoneyInThePurse(500);
+
 
         Rania.setWeight(65);
 
@@ -123,7 +123,6 @@ public class AppMain {
 
         System.out.println("The girl works at the " + Rania.getWork());
 
-        System.out.println("The money she owns is " + Rania.getMoneyInThePurse() + "Lei");
 
         System.out.println("The girl's weight is " + Rania.getWeight() + "Kg");
 
@@ -246,8 +245,17 @@ public class AppMain {
 
         Andrew.work();
 
+        Dog dog = new Dog();
+        dog.speak();
+
+        Cat cat = new Cat();
+        cat.speak();
+        cat.tailWiggling();
+        cat.sleep();
+        cat.tailWiggling();
 
     }
+
 
 
 
