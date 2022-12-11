@@ -1,8 +1,10 @@
+import java.util.List;
+
 public class LogicalOperations1 {
     //1. Creati o metoda in clasa LogicalOp, care sa primeasca un numar ca si parametru.
 // Metoda sa verifice numarul primit, si sa afiseze in consola o numaratoare pana la 100,
 // pornind de la numarul primit ca si parametru.
-    LogicalOperations1 logicalOp1 = new LogicalOperations1();
+ /*   LogicalOperations1 logicalOp1 = new LogicalOperations1();
 
     int x = 1;
 
@@ -631,7 +633,7 @@ public class LogicalOperations1 {
 
         return emptyArray;
 
-    }
+    }*/
     //1.Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand, toate valorile din lista,
 
     // fiecare pe rand nou.
@@ -743,6 +745,10 @@ public class LogicalOperations1 {
 
         }
     }
+}
+
+
+
 
 
 
