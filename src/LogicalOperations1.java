@@ -339,21 +339,18 @@ public class LogicalOperations1 {
 
     public void fibonacci() {
 
-        int x= 20;
+        int x = 20;
 
-        int z= 0;
+        int z = 0;
 
         int y = 1;
 
 
+        int i = 1;
 
-        int i=1;
+        while (i <= x) {
 
-        while(i<=x)
-
-        {
-
-            System.out.print(z+" ");
+            System.out.print(z + " ");
 
             int numbers = z + y;
 
@@ -366,6 +363,7 @@ public class LogicalOperations1 {
         }
 
     }
+
     //10. Creati o metoda numita CozaLozaWoza.
     public void wozaCozaLoza() {
 
@@ -418,18 +416,20 @@ public class LogicalOperations1 {
         }
 
     }
-    public int [] getArrayOfValues(int positions){
 
-        int [] myArray =new int[positions];
+    public int[] getArrayOfValues(int positions) {
 
-        for (int i = 0; i < myArray.length; i++){
+        int[] myArray = new int[positions];
+
+        for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i + 1;
         }
         return myArray;
 
     }
-    public void printArray (int[] myArray){
-        for (int i = 0; i < myArray.length; i++ ){
+
+    public void printArray(int[] myArray) {
+        for (int i = 0; i < myArray.length; i++) {
             System.out.println(myArray[1] + " ");
         }
     }
@@ -442,12 +442,11 @@ public class LogicalOperations1 {
         int[] myArray = new int[100];
 
 
-
         for (int i = 1; i <= 100; i++) {
 
             myArray[i - 1] = i;
 
-            System.out.println(myArray[i-1]);
+            System.out.println(myArray[i - 1]);
 
         }
 
@@ -461,7 +460,6 @@ public class LogicalOperations1 {
     public int[] getEvenArrayToHundred(int[] evenArray) {
 
         int j = 0;
-
 
 
         for (int i = 1; i <= 100; i++) {
@@ -484,7 +482,6 @@ public class LogicalOperations1 {
 //    Metoda sa calculeze si sa returneze media numerelor din array.
 
 
-
     public float getAverageArray(int[] myArray) {
 
         float sum = 0;
@@ -500,16 +497,13 @@ public class LogicalOperations1 {
     }
 
 
-
 //    5. Creati o metoda care sa primeasca un parametru de tip array de string-uri, populat cu valori, si un parametru de tip String.
 
 //    Metoda sa verifice daca valoarea string-ului primit se regaseste in array-ul primit,
 //    iar daca da sa returneze true iar daca nu, sa returneze false.
 
 
-
     public boolean checkInArray(String[] arrString, String input) {
-
 
 
         for (int i = 0; i < arrString.length; i++) {
@@ -527,11 +521,9 @@ public class LogicalOperations1 {
     }
 
 
-
 //    6. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
 
 //    Metoda sa verifice daca numarul primit se afla in array-ul primit, si daca da, atunci sa returneze pozitia pe care se afla numarul.
-
 
 
     public int getPositionInArray(int[] Numbers, int nr) {
@@ -551,15 +543,12 @@ public class LogicalOperations1 {
     }
 
 
-
 //    7. Creati o metoda care sa afiseze urmatoarea grila, folosind un array:
-
 
 
     public void drawLines() {
 
         char[] line = {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-',};
-
 
 
         for (int i = 0; i <= 10; i++) {
@@ -571,11 +560,9 @@ public class LogicalOperations1 {
     }
 
 
-
 //    8. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip numar.
 
 //    Metoda sa verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar.
-
 
 
     public int[] removeNrFromArray(int[] myArray, int nr) {
@@ -597,7 +584,6 @@ public class LogicalOperations1 {
         int[] finArray = new int[j];
 
 
-
         for (int i = 0; i < j; i++)
 
             finArray[i] = secondArray[i];
@@ -607,19 +593,16 @@ public class LogicalOperations1 {
     }
 
 
-
 //    9. Creati o metoda care sa primeasca un array, si sa returneze al doilea cel mai mic numar din array.
-
 
 
     public int getSecondSmallestNrInArray(int[] myArray) {
 
 
-
         int temporary = 0;
-        for(int i = 0; i< myArray.length;i++){
-            for(int j = i + 1;j<myArray.length;j++){
-                if(myArray[i] > myArray[j]){
+        for (int i = 0; i < myArray.length; i++) {
+            for (int j = i + 1; j < myArray.length; j++) {
+                if (myArray[i] > myArray[j]) {
                     temporary = myArray[j];
                     myArray[j] = myArray[i];
                     myArray[i] = temporary;
@@ -635,9 +618,7 @@ public class LogicalOperations1 {
 //    Metoda sa copieze toate valorile din primul array, parcurgandu-l, in cel de-al doilea.
 
 
-
     public int[] copyArray(int[] firstArray, int[] emptyArray) {
-
 
 
         for (int i = 0, j = 0; i < firstArray.length; i++) {
@@ -651,7 +632,117 @@ public class LogicalOperations1 {
         return emptyArray;
 
     }
-}
+    //1.Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand, toate valorile din lista,
+
+    // fiecare pe rand nou.
+
+
+    public void printList(List<Integer> myList) {
+
+        for (int i = 0; i < myList.size(); i++) {
+
+            System.out.println(myList.get(i));
+
+        }
+
+    }
+
+    //2.Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru sa fie o lista de numere,
+
+    // si celalalt un numar (real sau intreg).
+
+    // Metoda sa adauge numarul primit ca si parametru la final de lista.
+
+
+    public void addNumberToList(List<Integer> myList, int number) {
+
+        myList.add(number);
+
+    }
+
+    //3.Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru de tip Lista, iar celalalt un
+
+    // numar intreg.
+
+    // Sa se parcurga lista si sa afiseze, pe rand, toate valorile din lista, fiecare pe rand nou,
+
+    // pornind de la numarul intreg primit ca si parametru.
+
+
+    public void printListByIndex(List<Integer> myList, int position) {
+
+        for (int i = position; i < myList.size(); i++) {
+
+            System.out.println(myList.get(i));
+
+        }
+
+    }
+
+    //4.Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand, toate valorile din lista,
+
+    // dar invers(de la capat la inceput).
+
+    public void printListReversed(List<Integer> myList) {
+
+        for (int i = myList.size() - 1; i >= 0; i--) {
+
+            System.out.println(myList.get(i));
+
+        }
+
+    }
+
+    //5.Scrieti o metoda Java, care sa primeasca trei parametrii: unul de tip Lista de String-uri, unul de tip intreg,
+
+    // si unul de tip String. Metoda sa adauge parametrul de tip String in lista primita, iar parametrul de tip intreg
+
+    // reprezinta pozitia la care sa fie pus acel String.
+
+    public void addStringToMyList(List<String> myList, int index, String text) {
+
+        myList.add(index, text);
+
+    }
+
+    //6.Scrieti o metoda Java, care sa primeasca doi parametrii. Primul dintre ei va fi o Lista, iar metoda
+
+    // sa ia al doilea parametru si sa il adauge pe prima pozitie din lista.
+
+    public void addNumbertoFirstIndex(List<Integer> myList, int number) {
+
+        myList.add(0, number);
+
+    }
+
+    //7.Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista,
+
+    // si ce pe ce pozitie. (Ex: “Pe pozitia 1 valoare este 4”).
+
+    public void printListIndexAndElements(List<Integer> myList) {
+
+        for (int i = 0; i < myList.size(); i++)
+
+            System.out.println("Index " + i + " are elementul " + myList.get(i));
+
+    }
+
+    ////8.Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
+
+    public int getBiggestValueFromList(List<Integer> myList) {
+
+        int biggest = myList.get(0);
+
+        for (int i = 0; i < myList.size(); i++) {
+
+            if (myList.get(i) > biggest) {
+
+                biggest = myList.get(i);
+
+            }
+
+        }
+    }
 
 
 
