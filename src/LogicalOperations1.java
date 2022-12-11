@@ -741,11 +741,16 @@ public class LogicalOperations1 {
 
                 biggest = myList.get(i);
 
-            }
 
+            }
         }
     }
 }
+
+
+
+
+
 
 
 

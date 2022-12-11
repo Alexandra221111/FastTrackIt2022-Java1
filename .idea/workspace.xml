@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef9ee4d9-d191-482e-b893-e53eade89fb4" name="Changes" comment="Lab 14 - polymorfism">
+    <list default="true" id="ef9ee4d9-d191-482e-b893-e53eade89fb4" name="Changes" comment="Lab 14 - list">
+      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Read.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOperations1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
       <module name="FastTrackIt2022-Java" />
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab10" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670751556363</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab 14 - list">
+      <created>1670768873354</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670768873354</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lab 14 - list">
+      <created>1670769098110</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670769098110</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +271,7 @@
     <MESSAGE value="Lab 13 - Inheritance" />
     <MESSAGE value="Lab 14 - Array" />
     <MESSAGE value="Lab 14 - polymorfism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 14 - polymorfism" />
+    <MESSAGE value="Lab 14 - list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 14 - list" />
   </component>
 </project>
